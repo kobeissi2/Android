@@ -1,4 +1,4 @@
-package kobeissidev.calculatecollegegpa;
+package kobeissidev.calculategpa;
 
 import org.junit.Test;
 

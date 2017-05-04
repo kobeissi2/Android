@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kobeissidev.calculatecollegegpa">
+    package="kobeissidev.calculategpa">
 
     <application
         android:allowBackup="true"
@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="kobeissidev.calculategpa.CollegeGPA"></activity>
+        <activity android:name="kobeissidev.calculategpa.CollegeGPA" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name="kobeissidev.calculategpa.ChangeScale"></activity>
     </application>
 
 </manifest>

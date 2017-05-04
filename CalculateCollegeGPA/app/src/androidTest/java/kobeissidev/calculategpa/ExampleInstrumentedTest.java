@@ -1,4 +1,4 @@
-package kobeissidev.calculatecollegegpa;
+package kobeissidev.calculategpa;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
