@@ -1,11 +1,14 @@
 package kobeissidev.calculategpa;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -87,18 +90,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static void Save(File file, String[] data) {
-        FileOutputStream fos = null;
+        FileOutputStream fileOutputStream = null;
         try {
-            fos = new FileOutputStream(file);
+            fileOutputStream = new FileOutputStream(file);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
         try {
             try {
-                for (int i = 0; i < data.length; i++) {
-                    fos.write(data[i].getBytes());
-                    if (i < data.length - 1) {
-                        fos.write("\n".getBytes());
+                for (int index = 0; index < data.length; index++) {
+                    fileOutputStream.write(data[index].getBytes());
+                    if (index < data.length - 1) {
+                        fileOutputStream.write("\n".getBytes());
                     }
                 }
             } catch (IOException e) {
@@ -106,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             }
         } finally {
             try {
-                fos.close();
+                fileOutputStream.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -114,39 +117,39 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static String[] Load(File file) {
-        FileInputStream fis = null;
+        FileInputStream fileInputStream = null;
         try {
-            fis = new FileInputStream(file);
+            fileInputStream = new FileInputStream(file);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        InputStreamReader isr = new InputStreamReader(fis);
-        BufferedReader br = new BufferedReader(isr);
+        InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
+        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 
         String test;
-        int anzahl = 0;
+        int value = 0;
         try {
-            while ((test = br.readLine()) != null) {
-                anzahl++;
+            while ((test = bufferedReader.readLine()) != null) {
+                value++;
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         try {
-            fis.getChannel().position(0);
+            fileInputStream.getChannel().position(0);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        String[] array = new String[anzahl];
+        String[] array = new String[value];
 
         String line;
-        int i = 0;
+        int index = 0;
         try {
-            while ((line = br.readLine()) != null) {
-                array[i] = line;
-                i++;
+            while ((line = bufferedReader.readLine()) != null) {
+                array[index] = line;
+                index++;
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -159,5 +162,41 @@ public class MainActivity extends AppCompatActivity {
             inputs[index] = String.valueOf(scales[index]);
         }
         Save(file, inputs);
+    }
+
+    @Override
+    public void onPause(){
+        super.onPause();
+        saveAll();
+    }
+
+    @Override
+    public void onStop(){
+        super.onStop();
+        saveAll();
+    }
+
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        saveAll();
+    }
+
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setTitle("Closing Activity")
+                .setMessage("Are you sure you want to exit?")
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+
+                })
+                .setNegativeButton("No", null)
+                .show();
     }
 }
