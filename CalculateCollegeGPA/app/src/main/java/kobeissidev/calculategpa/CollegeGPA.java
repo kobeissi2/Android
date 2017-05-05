@@ -1,6 +1,8 @@
 package kobeissidev.calculategpa;
 
+import android.icu.text.NumberFormat;
 import android.os.Bundle;
+import android.renderscript.Double2;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -12,7 +14,6 @@ public class CollegeGPA extends AppCompatActivity {
     private static final int[] classSpinnerIDs = {R.id.first, R.id.second, R.id.third, R.id.fourth, R.id.fifth, R.id.sixth};
     private static final int[] creditSpinnerIDs = {R.id.creditFirst, R.id.creditSecond, R.id.creditThird, R.id.creditFourth, R.id.creditFifth, R.id.creditSixth};
     private int numberOfClasses;
-    private double[] scales;
     private double totalGPA;
 
     @Override
@@ -22,7 +23,6 @@ public class CollegeGPA extends AppCompatActivity {
         this.getSupportActionBar().hide();
 
         numberOfClasses = getIntent().getIntExtra("NumberOfClasses", 1);
-        scales = getIntent().getDoubleArrayExtra("Scales");
         totalGPA = 0;
         setSpinners();
 
@@ -34,45 +34,46 @@ public class CollegeGPA extends AppCompatActivity {
         calcButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                double qualityPoints = 0, totalCredits = 1;
+                double qualityPoints = 0, totalCredits = 0;
                 for (int spinnerID = 0; spinnerID < numberOfClasses; spinnerID++) {
                     Spinner mySpinner = (Spinner) findViewById(classSpinnerIDs[spinnerID]);
                     Spinner creditSpinner = (Spinner) findViewById(creditSpinnerIDs[spinnerID]);
-                    if (mySpinner.getSelectedItem().toString() == "A") {
-                        qualityPoints += creditAdd(creditSpinner, scales[0]);
+                    if (mySpinner.getSelectedItem().toString() == "A+") {
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[0]);
+                    } else if (mySpinner.getSelectedItem().toString() == "A") {
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[1]);
                     } else if (mySpinner.getSelectedItem().toString() == "A-") {
-                        qualityPoints += creditAdd(creditSpinner, scales[1]);
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[2]);
                     } else if (mySpinner.getSelectedItem().toString() == "B+") {
-                        qualityPoints += creditAdd(creditSpinner, scales[2]);
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[3]);
                     } else if (mySpinner.getSelectedItem().toString() == "B") {
-                        qualityPoints += creditAdd(creditSpinner, scales[3]);
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[4]);
                     } else if (mySpinner.getSelectedItem().toString() == "B-") {
-                        qualityPoints += creditAdd(creditSpinner, scales[4]);
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[5]);
                     } else if (mySpinner.getSelectedItem().toString() == "C+") {
-                        qualityPoints += creditAdd(creditSpinner, scales[5]);
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[6]);
                     } else if (mySpinner.getSelectedItem().toString() == "C") {
-                        qualityPoints += creditAdd(creditSpinner, scales[6]);
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[7]);
                     } else if (mySpinner.getSelectedItem().toString() == "C-") {
-                        qualityPoints += creditAdd(creditSpinner, scales[7]);
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[8]);
                     } else if (mySpinner.getSelectedItem().toString() == "D+") {
-                        qualityPoints += creditAdd(creditSpinner, scales[8]);
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[9]);
                     } else if (mySpinner.getSelectedItem().toString() == "D") {
-                        qualityPoints += creditAdd(creditSpinner, scales[9]);
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[10]);
                     } else if (mySpinner.getSelectedItem().toString() == "D-") {
-                        qualityPoints += creditAdd(creditSpinner, scales[10]);
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[11]);
+                    } else {
+                        qualityPoints += creditAdd(creditSpinner, MainActivity.scales[12]);
                     }
                 }
-/*
                 for (int credit = 0; credit < numberOfClasses; credit++) {
                     Spinner tempSpinner = (Spinner) findViewById(creditSpinnerIDs[credit]);
-                    totalCredits += Double.parseDouble(tempSpinner.toString());
+                    totalCredits += Double.parseDouble(tempSpinner.getSelectedItem().toString());
                 }
-
-
-               totalGPA = qualityPoints / totalCredits;*/
+                totalGPA = qualityPoints / totalCredits;
                 EditText textGPA = (EditText) findViewById(R.id.GPATotal);
                 textGPA.setVisibility(View.VISIBLE);
-                textGPA.setText("TODO");
+                textGPA.setText(String.format("Your GPA is currently %.2f.", totalGPA).toString());
             }
         });
     }
@@ -107,7 +108,7 @@ public class CollegeGPA extends AppCompatActivity {
     }
 
     protected void addToGradeSpinner(Spinner mySpinner) {
-        String[] items = new String[]{"A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-", "F"};
+        String[] items = new String[]{"A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-", "F"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, items);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner.setAdapter(adapter);

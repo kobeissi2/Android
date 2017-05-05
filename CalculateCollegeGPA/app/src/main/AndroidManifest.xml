@@ -9,18 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="kobeissidev.calculategpa.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="kobeissidev.calculategpa.CollegeGPA" />
-        <activity
-            android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings" />
-        <activity android:name="kobeissidev.calculategpa.ChangeScale"></activity>
+        <activity android:name=".CollegeGPA" />
+        <activity android:name=".ChangeScale" />
     </application>
 
 </manifest>
