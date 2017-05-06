@@ -1,16 +1,21 @@
 package kobeissidev.calculategpa;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.startapp.android.publish.ads.nativead.StartAppNativeAd;
+import com.startapp.android.publish.adsCommon.Ad;
+import com.startapp.android.publish.adsCommon.AutoInterstitialPreferences;
+import com.startapp.android.publish.adsCommon.StartAppAd;
+import com.startapp.android.publish.adsCommon.StartAppSDK;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -33,7 +38,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //this.getActionBar().hide();
+
+        StartAppSDK.init(this, "204506990", true);
 
         Button collegeGPA = (Button) findViewById(R.id.collegeButton);
         Button hsGPA = (Button) findViewById(R.id.hsButton);
@@ -72,6 +78,7 @@ public class MainActivity extends Activity {
 
                 if (classesText.getText().length() == 0) {
                     classesText.setText("1");
+                    classesText.setSelection(1);
                 }
 
                 numberOfClasses = Integer.parseInt(classesText.getText().toString());
@@ -113,9 +120,9 @@ public class MainActivity extends Activity {
     }
 
     private void navigateToSettings() {
-            Intent intent = new Intent(getBaseContext(), ChangeScale.class);
-            startActivity(intent);
-            saveAll();
+        Intent intent = new Intent(getBaseContext(), ChangeScale.class);
+        startActivity(intent);
+        saveAll();
     }
 
     @Override

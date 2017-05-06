@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context="kobeissidev.calculategpa.CollegeGPA"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="73dp">
+
+    <AutoCompleteTextView
+        android:id="@+id/gradeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="   Grade    "
+        android:textAlignment="center"
+        android:visibility="visible"
+        android:layout_marginStart="31dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="7dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/creditLabel" />
+
+    <AutoCompleteTextView
+        android:id="@+id/creditLabel"
+        android:layout_width="129dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="61dp"
+        android:editable="false"
+        android:text="Credit Hours"
+        android:textAlignment="center"
+        android:visibility="visible"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/gradeLabel"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gradeLabel" />
+
+    <Button
+        android:id="@+id/calcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate GPA!"
+        android:visibility="visible"
+        android:layout_marginEnd="111dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/GPATotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none"
+        android:lineSpacingExtra="8sp"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="@+id/calcButton"
+        app:layout_constraintTop_toBottomOf="@+id/calcButton"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/empty_short_divider"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:visibility="visible"
+        android:weightSum="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="1dp"
+        app:layout_constraintTop_toBottomOf="@+id/gradeLabel"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/gradeLabel">
+
+        <Spinner
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="197dp" />
+
+        <Spinner
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="315dp" />
+
+        <Spinner
+            android:id="@+id/third"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <Spinner
+            android:id="@+id/fourth"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <Spinner
+            android:id="@+id/fifth"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <Spinner
+            android:id="@+id/sixth"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/empty_short_divider"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:visibility="visible"
+        android:weightSum="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@+id/creditLabel"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/creditLabel">
+
+        <Spinner
+            android:id="@+id/creditFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="197dp" />
+
+        <Spinner
+            android:id="@+id/creditSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="315dp" />
+
+        <Spinner
+            android:id="@+id/creditThird"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <Spinner
+            android:id="@+id/creditFourth"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <Spinner
+            android:id="@+id/creditFifth"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <Spinner
+            android:id="@+id/creditSixth"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

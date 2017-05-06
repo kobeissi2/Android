@@ -1,4 +1,0 @@
-#Sat May 06 03:31:53 EDT 2017
-base.0=C\:\\Users\\kobei\\Documents\\GitHub\\Android\\CalculateCollegeGPA\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_3
-renamed.0=classes.dex
-file.0=C\:\\Users\\kobei\\Documents\\GitHub\\Android\\CalculateCollegeGPA\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_3\\classes.dex
