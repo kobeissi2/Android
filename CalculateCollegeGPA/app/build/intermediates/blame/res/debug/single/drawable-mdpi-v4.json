@@ -28,12 +28,12 @@
         "source": "C:\\Users\\kobei\\.android\\build-cache\\f959a4d39332b12c864bd79e9ae63aff8ffc39e4\\output\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "C:\\Users\\kobei\\Documents\\GitHub\\Android\\CalculateCollegeGPA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "C:\\Users\\kobei\\.android\\build-cache\\f959a4d39332b12c864bd79e9ae63aff8ffc39e4\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\kobei\\Documents\\GitHub\\Android\\CalculateCollegeGPA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
         "source": "C:\\Users\\kobei\\.android\\build-cache\\ccba312daf36d02e3cb81979b6ccde09c6446121\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kobei\\Documents\\GitHub\\Android\\CalculateCollegeGPA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\kobei\\.android\\build-cache\\f959a4d39332b12c864bd79e9ae63aff8ffc39e4\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\kobei\\Documents\\GitHub\\Android\\CalculateCollegeGPA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",

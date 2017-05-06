@@ -41,7 +41,7 @@
         android:layout_marginTop="16dp"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="61dp" />
+        android:layout_marginLeft="160dp" />
 
     <Button
         android:id="@+id/calcButtonHS"
@@ -59,12 +59,11 @@
 
     <EditText
         android:id="@+id/textGPAHS"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
         android:ems="10"
         android:inputType="none"
-        android:singleLine="true"
-        android:editable="false"
         android:textAlignment="center"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
