@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context="kobeissidev.calculategpa.HighSchoolGPA"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="73dp">
+
+    <AutoCompleteTextView
+        android:id="@+id/gradeLabelHS"
+        android:layout_width="128dp"
+        android:layout_height="0dp"
+        android:editable="false"
+        android:text="   Grade    "
+        android:textAlignment="center"
+        android:visibility="visible"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="3dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/typeOfClassLabel" />
+
+    <AutoCompleteTextView
+        android:id="@+id/typeOfClassLabel"
+        android:layout_width="128dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="61dp"
+        android:editable="false"
+        android:text="Type of Class"
+        android:textAlignment="center"
+        android:visibility="visible"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/gradeLabelHS"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gradeLabelHS" />
+
+    <Button
+        android:id="@+id/calcButtonHS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate GPA!"
+        android:visibility="visible"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="132dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textGPAHS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:visibility="gone"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/empty_short_divider"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:visibility="visible"
+        android:weightSum="1"
+        android:id="@+id/linearLayout8"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/typeOfClassLabel"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/typeOfClassLabel">
+
+        <Spinner
+            android:id="@+id/tocOne"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="197dp" />
+
+        <Spinner
+            android:id="@+id/tocTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="315dp" />
+
+        <Spinner
+            android:id="@+id/tocThree"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <Spinner
+            android:id="@+id/tocFour"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <Spinner
+            android:id="@+id/tocFive"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <Spinner
+            android:id="@+id/tocSix"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:divider="@drawable/empty_short_divider"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:visibility="visible"
+        android:weightSum="1"
+        android:id="@+id/linearLayout7"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="50dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/gradeLabelHS"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/gradeOne"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="197dp" />
+
+        <Spinner
+            android:id="@+id/gradeTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="315dp" />
+
+        <Spinner
+            android:id="@+id/gradeThree"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <Spinner
+            android:id="@+id/gradeFour"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <Spinner
+            android:id="@+id/gradeFive"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <Spinner
+            android:id="@+id/gradeSix"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="0.02"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="344dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
