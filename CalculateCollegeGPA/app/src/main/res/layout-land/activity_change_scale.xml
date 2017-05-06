@@ -5,40 +5,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="kobeissidev.calculategpa.ChangeScale"
-    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteY="73dp"
     tools:layout_editor_absoluteX="0dp">
 
     <Button
         android:id="@+id/saveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        android:layout_marginStart="21dp"
+        android:layout_marginStart="10dp"
         android:text="Save Changes"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/defaultButton"
-        tools:layout_constraintBottom_creator="1" />
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/defaultButton"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="26dp"
+        app:layout_constraintLeft_toLeftOf="@+id/defaultButton" />
 
     <Button
         android:id="@+id/defaultButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
         android:text="Reset To Default"
-        app:layout_constraintBaseline_toBaselineOf="@+id/saveButton"
-        tools:layout_constraintBaseline_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginEnd="77dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="123dp" />
 
     <GridLayout
         android:layout_width="126dp"
         android:layout_height="253dp"
-        android:layout_marginStart="13dp"
+        android:layout_marginStart="179dp"
+        android:id="@+id/gridLayout2"
         tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="8dp"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintTop_toTopOf="@+id/gridLayout"
-        app:layout_constraintLeft_toRightOf="@+id/gridLayout">
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <EditText
             android:id="@+id/cLabel"
@@ -224,11 +228,14 @@
 
     <GridLayout
         android:id="@+id/gridLayout"
-        android:layout_width="125dp"
+        android:layout_width="0dp"
         android:layout_height="300dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="29dp"
+        app:layout_constraintRight_toLeftOf="@+id/gridLayout2"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="71dp"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="8dp"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent">

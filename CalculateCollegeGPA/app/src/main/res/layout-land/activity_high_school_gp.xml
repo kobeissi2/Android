@@ -7,41 +7,41 @@
     android:visibility="visible"
     tools:context="kobeissidev.calculategpa.HighSchoolGPA"
     tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="25dp">
+    tools:layout_editor_absoluteY="73dp">
 
     <AutoCompleteTextView
         android:id="@+id/gradeLabelHS"
         android:layout_width="128dp"
-        android:layout_height="42dp"
+        android:layout_height="0dp"
         android:editable="false"
         android:text="   Grade    "
         android:textAlignment="center"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="@+id/typeOfClassLabel"
-        app:layout_constraintLeft_toLeftOf="@+id/linearLayout7"
-        app:layout_constraintRight_toRightOf="@+id/linearLayout7"
-        app:layout_constraintTop_toTopOf="@+id/typeOfClassLabel"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
         tools:layout_constraintTop_creator="1"
-        app:layout_constraintHorizontal_bias="0.085"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="3dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/typeOfClassLabel" />
 
     <AutoCompleteTextView
         android:id="@+id/typeOfClassLabel"
         android:layout_width="128dp"
-        android:layout_height="42dp"
+        android:layout_height="0dp"
         android:layout_marginStart="61dp"
         android:editable="false"
         android:text="Type of Class"
         android:textAlignment="center"
         android:visibility="visible"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/gradeLabelHS"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="61dp" />
+        app:layout_constraintTop_toTopOf="@+id/gradeLabelHS" />
 
     <Button
         android:id="@+id/calcButtonHS"
@@ -49,13 +49,12 @@
         android:layout_height="wrap_content"
         android:text="Calculate GPA!"
         android:visibility="visible"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        android:layout_marginTop="25dp"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
-        tools:layout_constraintLeft_creator="1" />
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="132dp"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/textGPAHS"
@@ -64,31 +63,30 @@
         android:ems="10"
         android:inputType="none"
         android:singleLine="true"
-        android:editable="false"
         android:textAlignment="center"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:divider="@drawable/empty_tall_divider"
+        android:divider="@drawable/empty_short_divider"
         android:orientation="vertical"
         android:showDividers="middle"
         android:visibility="visible"
         android:weightSum="1"
+        android:id="@+id/linearLayout8"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="5dp"
         app:layout_constraintTop_toBottomOf="@+id/typeOfClassLabel"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/typeOfClassLabel"
-        android:id="@+id/linearLayout8">
+        app:layout_constraintLeft_toLeftOf="@+id/typeOfClassLabel">
 
         <Spinner
             android:id="@+id/tocOne"
@@ -152,18 +150,18 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:divider="@drawable/empty_tall_divider"
+        android:layout_marginStart="14dp"
+        android:divider="@drawable/empty_short_divider"
         android:orientation="vertical"
         android:showDividers="middle"
         android:visibility="visible"
         android:weightSum="1"
         android:id="@+id/linearLayout7"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="12dp"
-        app:layout_constraintTop_toBottomOf="@+id/gradeLabelHS"
+        android:layout_marginTop="50dp"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toRightOf="@+id/typeOfClassLabel">
+        app:layout_constraintLeft_toLeftOf="@+id/gradeLabelHS"
+        app:layout_constraintTop_toTopOf="parent">
 
         <Spinner
             android:id="@+id/gradeOne"

@@ -20,5 +20,4 @@
         <activity android:name=".ChangeScale" />
         <activity android:name=".HighSchoolGPA"></activity>
     </application>
-
 </manifest>

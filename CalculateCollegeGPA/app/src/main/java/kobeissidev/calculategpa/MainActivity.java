@@ -1,10 +1,10 @@
 package kobeissidev.calculategpa;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -32,7 +32,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //this.getActionBar().hide();
 
         Button collegeGPA = (Button) findViewById(R.id.collegeButton);
         Button hsGPA = (Button) findViewById(R.id.hsButton);
@@ -58,9 +57,9 @@ public class MainActivity extends Activity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_menu, menu);
-        return super.onCreateOptionsMenu(menu);
+    public boolean onCreateOptionsMenu(Menu menus) {
+        getMenuInflater().inflate(R.menu.activity_menu, menus);
+        return super.onCreateOptionsMenu(menus);
     }
 
     private void navigateToCollege(Button collegeGPA) {
@@ -71,6 +70,7 @@ public class MainActivity extends Activity {
 
                 if (classesText.getText().length() == 0) {
                     classesText.setText("1");
+                    classesText.setSelection(1);
                 }
 
                 numberOfClasses = Integer.parseInt(classesText.getText().toString());
