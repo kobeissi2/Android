@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -35,7 +37,6 @@ public class MainActivity extends Activity {
 
         Button collegeGPA = (Button) findViewById(R.id.collegeButton);
         Button hsGPA = (Button) findViewById(R.id.hsButton);
-        Button scaleButton = (Button) findViewById(R.id.scaleButton);
 
         path = this.getFilesDir();
         file = new File(path, "scales.txt");
@@ -55,7 +56,12 @@ public class MainActivity extends Activity {
 
         navigateToCollege(collegeGPA);
         navigateToHighScool(hsGPA);
-        navigateToSettings(scaleButton);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_menu, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 
     private void navigateToCollege(Button collegeGPA) {
@@ -106,15 +112,20 @@ public class MainActivity extends Activity {
         });
     }
 
-    private void navigateToSettings(Button scaleButton) {
-        scaleButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), ChangeScale.class);
-                startActivity(intent);
-                saveAll();
-            }
-        });
+    private void navigateToSettings() {
+            Intent intent = new Intent(getBaseContext(), ChangeScale.class);
+            startActivity(intent);
+            saveAll();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+                navigateToSettings();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     private static void Save(File file, String[] data) {
@@ -193,19 +204,19 @@ public class MainActivity extends Activity {
     }
 
     @Override
-    public void onPause(){
+    public void onPause() {
         super.onPause();
         saveAll();
     }
 
     @Override
-    public void onStop(){
+    public void onStop() {
         super.onStop();
         saveAll();
     }
 
     @Override
-    public void onDestroy(){
+    public void onDestroy() {
         super.onDestroy();
         saveAll();
     }
@@ -216,8 +227,7 @@ public class MainActivity extends Activity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .setTitle("Closing Application")
                 .setMessage("Are you sure you want to exit?")
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener()
-                {
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         finish();
