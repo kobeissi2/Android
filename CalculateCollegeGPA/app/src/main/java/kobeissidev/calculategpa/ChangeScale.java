@@ -6,10 +6,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+@SuppressWarnings("ALL")
 public class ChangeScale extends AppCompatActivity {
     private EditText[] texts;
-    Button saveButton;
-    Button resetButton;
+    private Button saveButton;
+    private Button resetButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,13 +30,13 @@ public class ChangeScale extends AppCompatActivity {
         resetToDefault();
     }
 
-    protected void fillScaleBoxes() {
+    private void fillScaleBoxes() {
         for (int index = 0; index < MainActivity.scales.length; index++) {
             texts[index].setText(Double.toString(MainActivity.scales[index]));
         }
     }
 
-    protected void changeScales() {
+    private void changeScales() {
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,7 +48,7 @@ public class ChangeScale extends AppCompatActivity {
         });
     }
 
-    protected void resetToDefault(){
+    private void resetToDefault(){
         resetButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -19,11 +18,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 
+@SuppressWarnings("ALL")
 public class MainActivity extends AppCompatActivity {
     private int numberOfClasses = 1;
-    protected static double[] scales;
-    protected File path, file;
-    protected String[] inputs;
+    static double[] scales;
+    private File path;
+    private File file;
+    private String[] inputs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         this.getSupportActionBar().hide();
 
         Button collegeGPA = (Button) findViewById(R.id.collegeButton);
+        Button hsGPA = (Button) findViewById(R.id.hsButton);
         Button scaleButton = (Button) findViewById(R.id.scaleButton);
 
         path = this.getFilesDir();
@@ -51,10 +53,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         navigateToCollege(collegeGPA);
+        navigateToHighScool(hsGPA);
         navigateToSettings(scaleButton);
     }
 
-    protected void navigateToCollege(Button collegeGPA) {
+    private void navigateToCollege(Button collegeGPA) {
         collegeGPA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,7 +81,31 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    protected void navigateToSettings(Button scaleButton) {
+    private void navigateToHighScool(Button hsGPA) {
+        hsGPA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText classesText = (EditText) findViewById(R.id.classes);
+
+                if (classesText.getText().length() == 0) {
+                    classesText.setText("1");
+                }
+
+                numberOfClasses = Integer.parseInt(classesText.getText().toString());
+
+                if (numberOfClasses > 6 || numberOfClasses < 1) {
+                    numberOfClasses = 1;
+                }
+
+                Intent intent = new Intent(getBaseContext(), HighSchoolGPA.class);
+                intent.putExtra("NumberOfClasses", numberOfClasses);
+                startActivity(intent);
+                saveAll();
+            }
+        });
+    }
+
+    private void navigateToSettings(Button scaleButton) {
         scaleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -89,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public static void Save(File file, String[] data) {
+    private static void Save(File file, String[] data) {
         FileOutputStream fileOutputStream = null;
         try {
             fileOutputStream = new FileOutputStream(file);
@@ -116,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public static String[] Load(File file) {
+    private static String[] Load(File file) {
         FileInputStream fileInputStream = null;
         try {
             fileInputStream = new FileInputStream(file);
@@ -157,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
         return array;
     }
 
-    protected void saveAll() {
+    private void saveAll() {
         for (int index = 0; index < scales.length; index++) {
             inputs[index] = String.valueOf(scales[index]);
         }
@@ -186,7 +213,7 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed() {
         new AlertDialog.Builder(this)
                 .setIcon(android.R.drawable.ic_dialog_alert)
-                .setTitle("Closing Activity")
+                .setTitle("Closing Application")
                 .setMessage("Are you sure you want to exit?")
                 .setPositiveButton("Yes", new DialogInterface.OnClickListener()
                 {
