@@ -1,5 +1,6 @@
 package kobeissidev.calculategpa;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -12,7 +13,7 @@ import java.util.Locale;
 import java.util.Objects;
 
 @SuppressWarnings("ALL")
-public class CollegeGPA extends AppCompatActivity {
+public class CollegeGPA extends Activity {
     private static final int[] classSpinnerIDs = {R.id.first, R.id.second, R.id.third, R.id.fourth, R.id.fifth, R.id.sixth};
     private static final int[] creditSpinnerIDs = {R.id.creditFirst, R.id.creditSecond, R.id.creditThird, R.id.creditFourth, R.id.creditFifth, R.id.creditSixth};
     private int numberOfClasses;
@@ -22,7 +23,7 @@ public class CollegeGPA extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_college_gp);
-        this.getSupportActionBar().hide();
+        this.getActionBar().hide();
 
         numberOfClasses = getIntent().getIntExtra("NumberOfClasses", 1);
         totalGPA = 0;

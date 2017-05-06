@@ -1,5 +1,6 @@
 package kobeissidev.calculategpa;
 
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,7 +20,7 @@ import java.io.InputStreamReader;
 
 
 @SuppressWarnings("ALL")
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     private int numberOfClasses = 1;
     static double[] scales;
     private File path;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        this.getSupportActionBar().hide();
+        //this.getActionBar().hide();
 
         Button collegeGPA = (Button) findViewById(R.id.collegeButton);
         Button hsGPA = (Button) findViewById(R.id.hsButton);

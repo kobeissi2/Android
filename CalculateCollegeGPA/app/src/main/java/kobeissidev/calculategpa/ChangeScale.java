@@ -1,5 +1,6 @@
 package kobeissidev.calculategpa;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -7,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 @SuppressWarnings("ALL")
-public class ChangeScale extends AppCompatActivity {
+public class ChangeScale extends Activity {
     private EditText[] texts;
     private Button saveButton;
     private Button resetButton;
@@ -16,7 +17,7 @@ public class ChangeScale extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_scale);
-        this.getSupportActionBar().hide();
+        //this.getActionBar().hide();
 
         saveButton = (Button) findViewById(R.id.saveButton);
         resetButton = (Button) findViewById(R.id.defaultButton);

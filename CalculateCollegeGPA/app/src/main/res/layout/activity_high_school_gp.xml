@@ -61,7 +61,7 @@
         android:id="@+id/textGPAHS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="6dp"
+        android:layout_marginBottom="1dp"
         android:ems="10"
         android:inputType="none"
         android:textAlignment="center"

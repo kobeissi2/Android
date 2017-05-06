@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CalculateCollegeGPA</string>
+    <string name="app_name">CalcGPA</string>
     <string name="vertical_ellipsis">&#8942;</string>
     <string name="title_activity_settings">Settings</string>
 
