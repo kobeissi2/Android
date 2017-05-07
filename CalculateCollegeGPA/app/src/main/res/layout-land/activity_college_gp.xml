@@ -62,6 +62,7 @@
         android:inputType="none"
         android:lineSpacingExtra="8sp"
         android:singleLine="true"
+        android:editable="false"
         android:textAlignment="viewStart"
         android:visibility="gone"
         app:layout_constraintLeft_toLeftOf="@+id/calcButton"

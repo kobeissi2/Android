@@ -70,6 +70,7 @@
         android:inputType="none"
         android:lineSpacingExtra="4sp"
         android:singleLine="true"
+        android:editable="false"
         android:textAlignment="viewStart"
         android:visibility="gone"
         app:layout_constraintRight_toRightOf="parent"

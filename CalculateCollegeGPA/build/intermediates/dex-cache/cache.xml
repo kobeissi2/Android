@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\libs\StartAppInApp-3.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ed35c8668ab2e513a23c2b584735a6a699af162d">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\2\StartAppInApp-3.6.1_4c0493651f4e2dd4310762d897dc7d346e323877\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\kobei\.android\build-cache\d65c73589cbb59b355f126e38f242338b877a091\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -117,6 +126,15 @@
         revision="25.0.3"
         sha1="7fd956c6afa5444a39910eede89ab25fb68be0fb">
         <dex dex="C:\Users\kobei\Documents\GitHub\Android\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_ac3a770a0578338b14e971b4f1597be3ed6c4652\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\incremental-classes\free\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e98c7c64ad90ebb63a83213e286a0f68b079615e">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10000\instant-run-bootstrap_c218f59864ae3485483aae8cf648d4122f5a44a0\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -207,6 +225,15 @@
         revision="25.0.3"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="C:\Users\kobei\Documents\GitHub\Android\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_deefc8cdfbba9c25e5211fa7047267f0e3735baf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\incremental-runtime-classes\free\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10000\instant-run_75df8bf74c4ac1168aa651357b56f820598043e2\classes.dex" />
     </item>
     <item
         is-multidex="true"
