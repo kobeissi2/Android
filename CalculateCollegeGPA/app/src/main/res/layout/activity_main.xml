@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
     tools:context="kobeissidev.calculategpa.MainActivity"
     tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="25dp">
+    tools:layout_editor_absoluteY="81dp">
 
     <Button
         android:id="@+id/hsButton"
@@ -28,9 +29,9 @@
         android:layout_height="wrap_content"
         android:text="College GPA"
         android:textAlignment="center"
+        android:layout_marginStart="16dp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/hsButton"
@@ -46,14 +47,12 @@
         android:singleLine="true"
         android:textAlignment="center"
         android:textSize="14sp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="29dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginTop="174dp"
+        android:layout_marginStart="14dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/collegeButton"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/collegeButton" />
+        android:layout_marginBottom="60dp"
+        app:layout_constraintLeft_toRightOf="@+id/classLabel" />
 
     <EditText
         android:id="@+id/classLabel"
@@ -63,22 +62,22 @@
         android:ems="10"
         android:inputType="none"
         android:singleLine="true"
-        android:text="How many classes are you taking?"
+        android:text="Number of classes:"
         android:textAlignment="center"
-        android:textSize="14sp"
-        app:layout_constraintRight_toLeftOf="@+id/classes"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginEnd="13dp"
+        android:textSize="18sp"
+        android:layout_marginStart="44dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/classes"
-        tools:layout_constraintBaseline_creator="1" />
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <android.support.constraint.Guideline
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/guideline"
-        app:layout_constraintGuide_begin="26dp"
+        app:layout_constraintGuide_begin="55dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteY="26dp"
+        tools:layout_editor_absoluteY="55dp"
         tools:layout_editor_absoluteX="0dp" />
 
 </android.support.constraint.ConstraintLayout>

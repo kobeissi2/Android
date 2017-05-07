@@ -11,9 +11,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.startapp.android.publish.ads.nativead.StartAppNativeAd;
-import com.startapp.android.publish.adsCommon.Ad;
-import com.startapp.android.publish.adsCommon.AutoInterstitialPreferences;
 import com.startapp.android.publish.adsCommon.StartAppAd;
 import com.startapp.android.publish.adsCommon.StartAppSDK;
 
@@ -40,6 +37,9 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         StartAppSDK.init(this, "204506990", true);
+        if(BuildConfig.FLAVOR.equals("paid")){
+            StartAppAd.disableSplash();
+        }
 
         Button collegeGPA = (Button) findViewById(R.id.collegeButton);
         Button hsGPA = (Button) findViewById(R.id.hsButton);
