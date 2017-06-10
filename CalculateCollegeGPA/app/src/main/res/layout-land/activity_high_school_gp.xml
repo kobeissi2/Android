@@ -57,6 +57,8 @@
         android:layout_marginTop="112dp"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
         app:layout_constraintLeft_toRightOf="@+id/gradeLabelHS" />
 
     <EditText

@@ -52,6 +52,8 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
         app:layout_constraintRight_toRightOf="parent" />
 
     <EditText

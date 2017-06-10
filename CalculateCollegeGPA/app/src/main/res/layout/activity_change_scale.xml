@@ -17,6 +17,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/saveButton"
         tools:layout_constraintBaseline_creator="1"
         tools:layout_constraintLeft_creator="1"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <GridLayout
@@ -420,6 +422,8 @@
         app:layout_constraintLeft_toRightOf="@+id/defaultButton"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
         android:layout_marginBottom="30dp" />
 
 </android.support.constraint.ConstraintLayout>
