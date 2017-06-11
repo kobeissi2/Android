@@ -83,7 +83,9 @@ public class CollegeGPA extends Activity {
 
     private double creditAdd(Spinner creditSpinner, double creditAmountNumber) {
         double qualityPoints = 0;
-        if (Objects.equals(creditSpinner.getSelectedItem().toString(), "5")) {
+        if (Objects.equals(creditSpinner.getSelectedItem().toString(), "6")) {
+            qualityPoints += (6.0 * creditAmountNumber);
+        } else if (Objects.equals(creditSpinner.getSelectedItem().toString(), "5")) {
             qualityPoints += (5.0 * creditAmountNumber);
         } else if (Objects.equals(creditSpinner.getSelectedItem().toString(), "4")) {
             qualityPoints += (4.0 * creditAmountNumber);
@@ -119,7 +121,7 @@ public class CollegeGPA extends Activity {
     }
 
     private void addToCreditSpinner(Spinner mySpinner) {
-        String[] items = new String[]{"5", "4", "3", "2", "1"};
+        String[] items = new String[]{"6", "5", "4", "3", "2", "1"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner.setAdapter(adapter);
