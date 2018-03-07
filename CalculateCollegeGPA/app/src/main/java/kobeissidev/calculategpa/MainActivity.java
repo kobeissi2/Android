@@ -2,8 +2,11 @@ package kobeissidev.calculategpa;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -30,15 +33,23 @@ public class MainActivity extends Activity {
     private File path;
     private File file;
     private String[] inputs;
+    private SharedPreferences prefs;
+    private boolean isFirstTime;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        StartAppSDK.init(this, "204506990", true);
-        if(BuildConfig.FLAVOR.equals("paid")){
-            StartAppAd.disableSplash();
+        prefs = getSharedPreferences("isFirstTime", Context.MODE_PRIVATE);
+        isFirstTime = prefs.getBoolean("isFirstTime",true);
+
+        if(isFirstTime && BuildConfig.FLAVOR.equals("free")){
+            Dialog();
+            SharedPreferences.Editor themeEditor = prefs.edit();
+            themeEditor.putBoolean("isFirstTime", false);
+            themeEditor.apply();
         }
 
         Button collegeGPA = (Button) findViewById(R.id.collegeButton);
@@ -62,6 +73,26 @@ public class MainActivity extends Activity {
 
         navigateToCollege(collegeGPA);
         navigateToHighScool(hsGPA);
+    }
+
+    private void Dialog(){
+        new AlertDialog.Builder(this)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setTitle("CalcGPA is now depreciated. Please download CalcGPA+.")
+                .setMessage("Go to the CalcGPA+ link?")
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        final String appPackageName = "kobeissidev.calculategpaplus";
+                        try {
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+                        } catch (android.content.ActivityNotFoundException anfe) {
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+                        }
+                    }
+                })
+                .setNegativeButton("No", null)
+                .show();
     }
 
     @Override

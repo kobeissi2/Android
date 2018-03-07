@@ -3,471 +3,223 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\87d3bd5ffa3fb91558c3373e16565d3beb5b4a80\output\jars\classes.jar"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\4b8fe2786adc4f56274549a5fc6d78c2\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_49a8ae531d338793b7a6ce945912a8186a5c2864\classes.dex" />
+        revision="27.0.3"
+        sha1="705378853cb9f264315d7a0a8edb6743d72efe9b">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\67fbb1ef94ade229a2ade99a183ce1c12f67c682\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="0e23941db151e67886844de6586e180bb2b860ad">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_6da4e8197ef11174362890a9f6b82ae5053652da\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\4f344e0faf172207cb67dfdd087c35b253d9e6d5\output\jars\classes.jar"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1dca17761796f5e0ca7434279dbf467d\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
-        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_57c94e5b577c381957aeec58daa24c6abf225b20\classes.dex" />
+        revision="27.0.3"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\22\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\407b329b89da8791e7b790c928f8eb461e4cf9c4\output\jars\classes.jar"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\9edf631d29a525a3f45458691e7d6564\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_ba34b0e880004d5945020b2d81c193b8c7564cc3\classes.dex" />
+        revision="27.0.3"
+        sha1="3d46095629eedbd5b79b4d129428fc499473a73b">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\15\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\f2b30410a90ea99f94a3b90db6d39c81759c09e7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_4137ca771db7a555601818f4a257195716d404a7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\2011be5e487013b27221f92a4f7326d202f20090\output\jars\classes.jar"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\11da7c52da474d2371da15950ce0d9f1\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_3eb81d1a410ba0a32c0abfb44a3e3112a45ebf71\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\3b508c5b2c6ff1d182cec27becf2bb73bc14f31a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_b45729d30330851f1664718fc00c21cdd8684b09\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\ce51f1ff8f3754d07e315f6fb373827aa5c7bce4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_d7a453e366197140ee448065fb8321d951e5f792\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\fb0c7fc056e31e7f16d78f9ac57b864e31e590a7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_d62231398535a9512ba8e1c541193114f90831e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\b087b4bb0f45c0967289e6fa0638a37d51df48db\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="597d0d34e15e713c486e8f4ccf739f0c7d05bde4">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_863131e9fa67665f7a7100f33a3bf2050748e589\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\fc95d83afe4b13a1826219830394deceb1375970\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="7fd956c6afa5444a39910eede89ab25fb68be0fb">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_55d201669aa04e5d819d14cd49cb3a19a048f7dc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\5e21a3ce971666bb8a67edfb20530d381cf63f82\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_728f91d45a1221c1f82e88eff9b052728ec6260b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\constraint-layout-solver-1.0.2_cbd9939eab938666348002e2048bd342ac1f2543\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\6ea1f22371182bfe217bbdbbeb3070593cbf769c\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_d4bc6b55fdd83c9cbe850ed942f4c5e70ea8515b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\332284636b4b516ebfbbb11f49cde773c7a6b808\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_a8162a780fa414ad77bc7bd27df75c246f27f817\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\0f7e7c196f6625a2244055397ed40db1ccf9bd54\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="3a1bac2cc31df44dbf1f9bbf2c675319503c9271">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_f8a0221990a52495a0b696b2a4fab8597c58ded6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\d8fa8eff13a5575bc90d217c60701f0c66dafd8c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
+        revision="27.0.3"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_1c0802f441a75d5adf28e9678df87d6da9dae4d9\classes.dex" />
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\4\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\libs\StartAppInApp-3.6.1.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
+        revision="27.0.3"
         sha1="ed35c8668ab2e513a23c2b584735a6a699af162d">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\2\StartAppInApp-3.6.1_4c0493651f4e2dd4310762d897dc7d346e323877\classes.dex" />
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\6ed739a2b07db6fb8645a7a935c4d3d455bd8fc8\output\jars\classes.jar"
+        jar="C:\Users\kobei\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
-        sha1="657abe17c5ba58f5d24803ba303c6005b180897a">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_c09a581ef51fbbc4fc2ae2472aa423f9e21c31cf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\incremental-runtime-classes\free\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10000\instant-run_75df8bf74c4ac1168aa651357b56f820598043e2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\a937fb125eb945a016b16ac35d58f26fcdd4598e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_f737265d35431f15cf82dd50f87a9ed997f668c9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\a73f81cd33af95d05c039daacf620f766cc0f898\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="fe159787dd4c4bc9ed6a9d4f7430e9af1f3516c8">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_3f3dadc6e04e4a4fc898eb594cec5a6b5a2dd10e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\53a66430e93eec7d1a41fa0be22e2d3e5d2fd807\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_1bd06617693be4b5c1271428fbe6679266fa341b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\4f344e0faf172207cb67dfdd087c35b253d9e6d5\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_57c94e5b577c381957aeec58daa24c6abf225b20\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\b4f39d8f49a87cda33d26c6214c633bbab340aab\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_988e672648ccf0faea8375f8639a07bc3090499e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\2011be5e487013b27221f92a4f7326d202f20090\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_3eb81d1a410ba0a32c0abfb44a3e3112a45ebf71\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\fc95d83afe4b13a1826219830394deceb1375970\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="7fd956c6afa5444a39910eede89ab25fb68be0fb">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_55d201669aa04e5d819d14cd49cb3a19a048f7dc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\b087b4bb0f45c0967289e6fa0638a37d51df48db\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="597d0d34e15e713c486e8f4ccf739f0c7d05bde4">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_863131e9fa67665f7a7100f33a3bf2050748e589\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\fb0c7fc056e31e7f16d78f9ac57b864e31e590a7\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_d62231398535a9512ba8e1c541193114f90831e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\f2b30410a90ea99f94a3b90db6d39c81759c09e7\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_4137ca771db7a555601818f4a257195716d404a7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\a73f81cd33af95d05c039daacf620f766cc0f898\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="fe159787dd4c4bc9ed6a9d4f7430e9af1f3516c8">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_3f3dadc6e04e4a4fc898eb594cec5a6b5a2dd10e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\67fbb1ef94ade229a2ade99a183ce1c12f67c682\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="0e23941db151e67886844de6586e180bb2b860ad">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_6da4e8197ef11174362890a9f6b82ae5053652da\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\5e21a3ce971666bb8a67edfb20530d381cf63f82\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_728f91d45a1221c1f82e88eff9b052728ec6260b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\87d3bd5ffa3fb91558c3373e16565d3beb5b4a80\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_49a8ae531d338793b7a6ce945912a8186a5c2864\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\3b508c5b2c6ff1d182cec27becf2bb73bc14f31a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_b45729d30330851f1664718fc00c21cdd8684b09\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\407b329b89da8791e7b790c928f8eb461e4cf9c4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_ba34b0e880004d5945020b2d81c193b8c7564cc3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\ce51f1ff8f3754d07e315f6fb373827aa5c7bce4\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_d7a453e366197140ee448065fb8321d951e5f792\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\libs\StartAppInApp-3.6.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ed35c8668ab2e513a23c2b584735a6a699af162d">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\2\StartAppInApp-3.6.1_4c0493651f4e2dd4310762d897dc7d346e323877\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
+        revision="27.0.3"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\constraint-layout-solver-1.0.2_cbd9939eab938666348002e2048bd342ac1f2543\classes.dex" />
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\17\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\a8cc6fbd9abd2ec1613a3be616690a7551c13e33\output\jars\classes.jar"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.0.aar\961a4cbbc183256fd3ff19591ce95b53\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
-        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_7df4c9ff6e6297bf57d3c27f93d8969d1231e2af\classes.dex" />
+        revision="27.0.3"
+        sha1="7a7f72625dd8e1cf5311f56138fe9471a005ceee">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\incremental-classes\free\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="08ff15180b433b2fbff49f17a845ad897c079247">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10000\instant-run-bootstrap_c218f59864ae3485483aae8cf648d4122f5a44a0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\81b075e6afa3784c5892ccf006770f27\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\support-annotations-25.3.1_c618b954d3b1bcd6e26266e82d93bd9216380d4f\classes.dex" />
+        revision="27.0.3"
+        sha1="5c66801c7ac6def4ffef7859925b12ce7940438e">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\a8cc6fbd9abd2ec1613a3be616690a7551c13e33\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_7df4c9ff6e6297bf57d3c27f93d8969d1231e2af\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\0f7e7c196f6625a2244055397ed40db1ccf9bd54\output\jars\classes.jar"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\5311f81dc6dee24270ac7eae7374563c\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
-        sha1="3a1bac2cc31df44dbf1f9bbf2c675319503c9271">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_f8a0221990a52495a0b696b2a4fab8597c58ded6\classes.dex" />
+        revision="27.0.3"
+        sha1="6f209b73a488f358673f39317df394bd7a99c05e">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\10\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kobei\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\support-annotations-25.3.1_c618b954d3b1bcd6e26266e82d93bd9216380d4f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\a937fb125eb945a016b16ac35d58f26fcdd4598e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_f737265d35431f15cf82dd50f87a9ed997f668c9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\53a66430e93eec7d1a41fa0be22e2d3e5d2fd807\output\jars\classes.jar"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\e2f29138cf5225989e145bf6458ac85c\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_1bd06617693be4b5c1271428fbe6679266fa341b\classes.dex" />
+        revision="27.0.3"
+        sha1="9a2ea9818b2f556b6663c0e7376bd664ee6c7550">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\11\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\6ed739a2b07db6fb8645a7a935c4d3d455bd8fc8\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="657abe17c5ba58f5d24803ba303c6005b180897a">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_c09a581ef51fbbc4fc2ae2472aa423f9e21c31cf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\b4f39d8f49a87cda33d26c6214c633bbab340aab\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_988e672648ccf0faea8375f8639a07bc3090499e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\332284636b4b516ebfbbb11f49cde773c7a6b808\output\jars\classes.jar"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\5da7c505b53d4094227eb9590cd094e0\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_a8162a780fa414ad77bc7bd27df75c246f27f817\classes.dex" />
+        revision="27.0.3"
+        sha1="858c1e21a2570a2416153aecab70d27a11965e79">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\6ea1f22371182bfe217bbdbbeb3070593cbf769c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\debug\folders\1000\10\classes_d4bc6b55fdd83c9cbe850ed942f4c5e70ea8515b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kobei\.android\build-cache\d8fa8eff13a5575bc90d217c60701f0c66dafd8c\output\jars\classes.jar"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f82664fbe232636a778f6b048e4749a6\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="21"
         optimize="true"
-        revision="25.0.3"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\dex\free\release\folders\1000\10\classes_1c0802f441a75d5adf28e9678df87d6da9dae4d9\classes.dex" />
+        revision="27.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\ed93f596b90d4d1b810e5a3b8e8ffbac\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.3"
+        sha1="668473027f40fa0cdd5b2db78ba02d676ffd3a2b">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\3ddff7d0d7f0f49197daaf657c146a3b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a4f81a342ac6bace97ad1420eb47fc11ab749a03">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\34e575bcf005be64407f19b2da34e152\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f7e3ff2cb093a99c8dc1ff3d50c176019fa5d7c1">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.0\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\351ba1a333df623417b58483669f4ab9\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.3"
+        sha1="755c70a5a4e439030f67311dbafaa67b111377a6">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\faeb8ad6865c219b96decd8b450f39fc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fe6c8fbfeeb1454c3eb605c9b66662991681fd55">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\98e12ccf90e1e66c692497892fe1c2a1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kobei\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\85a698e4d5afe1ee2c19c053b2a05a5a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="C:\Users\kobei\Documents\GitHub\CalcGPA\CalculateCollegeGPA\app\build\intermediates\transforms\preDex\free\release\18\classes.dex" />
     </item>
 
 </items>
