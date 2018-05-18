@@ -8,8 +8,8 @@ android {
         applicationId "kobeissidev.calculategpa"
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 10
-        versionName "1.10"
+        versionCode 12
+        versionName "1.12"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }
@@ -24,9 +24,9 @@ android {
             minSdkVersion 21
             applicationId 'kobeissidev.calculategpaplus'
             targetSdkVersion 27
-            testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
-            versionCode 10
-            versionName '1.10'
+            testInstrumentationRunner 'android.0support.test.runner.AndroidJUnitRunner'
+            versionCode 12
+            versionName "1.12"
             resValue "string", "app_name", "CalcGPA+"
             manifestPlaceholders = [
                     appIcon: "@mipmap/ic_launcher"
